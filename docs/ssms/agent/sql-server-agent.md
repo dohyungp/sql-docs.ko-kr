@@ -29,7 +29,7 @@ ms.locfileid: "88418019"
 > [!IMPORTANT]  
 > 현재 [Azure SQL Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance)에서는 SQL Server 에이전트 기능이 대부분 지원됩니다. 자세한 내용은 [SQL Server와 Azure SQL Managed Instance 간의 T-SQL 차이점](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)을 참조하세요.
 
-[!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] 에이전트는 *에서* 작업 [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)]이라고 하는 일정이 지정된 관리 태스크를 실행하는 Microsoft Windows 서비스입니다.  
+[!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] 에이전트는 *스케쥴된 관리 task들*을 실행하는 Microsoft Windows service로 [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)]에서는 jobs라고 불립니다.
 
 ## <a name="benefits-of-sql-server-agent"></a><a name="Benefits"></a>SQL Server 에이전트의 이점 
 
